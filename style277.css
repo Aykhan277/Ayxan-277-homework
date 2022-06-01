@@ -1,0 +1,398 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.dv1{
+     margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.img-con {
+    position: absolute;
+    width: 159.98px;
+    height: 46.97px;
+    left: 80px;
+    top: 65.03px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Orkhan muellim navigation ne qeder eledim alinmadi :( */
+.navigation a{
+    color: #07043B;
+    text-decoration: none;
+    margin-left: 58px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: space-between;
+}
+.dv2 {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    height: auto;
+    
+}
+.dvf2 {
+    display: flex;
+    height: auto;
+}
+.h1g {
+    font-style: "Raleway";
+    font-weight: 700;
+    color: #07043B;
+    height: auto;
+
+    
+}
+.p1g {
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.get-started-input{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.get-started-btn{
+    font-style: "Raleway";
+    font-weight: 700;
+}
+.first-image-con img{
+    width: 80%;
+    height: auto;  
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dv3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+    background:url("./assets/images/Rectangle.png"),#F8F8FE;
+}
+.dvf3 {
+    display: flex;
+
+}
+.dvg3{
+    padding: 10px;
+    width: 50%; }
+.h1g3 {   
+    padding: 5px;
+    font-size: 32px;
+    line-height: 48px;
+    font-style: "Raleway";
+    font-weight: 700;
+    justify-content: center;
+    
+}
+.p3g {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.how-works-a{
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    color:#3DA08F;
+    padding: 6px;
+}
+.how-works-a:hover{
+    color: #71DFCC;
+}
+.founder-con{
+    max-width: 30rem;
+    height: auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+ }
+.second-img-con{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: auto;
+}
+.p3g1 {
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.dv4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 60%;
+}
+.dvf4 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background: url("./assets/images/avatar-testimonial.jpg");
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+}
+h5{
+    display: inline;
+    font-style: "Raleway";
+    font-weight: 700;
+}
+.p5f {
+    font-family: "Raleway";
+    font-weight: 400;
+}
+.first-text-con{
+    padding: 10px;
+    width: 50%;
+}
+button{
+    background-color: #2f65f8;
+    margin: 5px;
+    padding: 13px;
+    border: none;
+    height: auto;
+    border-radius:3.1px ;
+    color: #ffff;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    height: 40px;
+    border: 0.625px solid #07043B;
+    border-radius: 3.1px;
+}
+.get-started-input{
+    width: 50%;
+}
+.get-input
+{
+    width: 60%;
+}
+
+
+
+.second-text-con{
+    padding: 10px;
+    width: 50%;
+}
+
+.founder-con{
+   max-width: 30rem;
+    height: auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+}
+
+.get-access-con{
+    background-color: #575988;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.get-access-con-div
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.access-text
+{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.access-h1 {
+    color: #ffff;
+    font-style: "Raleway";
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.access-p {
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.get-email{
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.get-input {
+    font-family: "Raleway";
+    font-weight: 400;
+}
+
+.for-free-btn
+{
+    max-width: 40%;
+    font-style: "Raleway";
+    font-weight: 700;
+}
+ button:hover
+{
+    background-color: #6C9BFF;
+    transition: 0.7s ease-in-out;
+}
+.footer-con{
+    background-color: #07043B;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    display: flex;
+}
+
+.log0{
+    width: 18px;
+    height: 16px;
+    margin: 15px;
+    margin-left: 15px;
+
+}
+.logo-and-contact
+{
+    width: 33%;
+}
+.contact-div
+{
+    width: 32%;
+}
+.dv66{
+    display: flex;
+    color: #ffff;
+    margin: 15px;
+}
+.p66{
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.links{
+    height: auto;
+    width: 35%;
+    flex-direction: row;
+    display: flex;
+}
+.links a:hover
+{
+    color: #2f65f8;
+    transition: 0.7s ease-in-out;
+}
+.linkler {
+    padding-left: 150px;
+}
+.a-element2{
+    color: #ffff;
+    margin: 15px;
+    display: flex;
+     font-family: "Open Sans";
+    font-weight: 400;
+}
+.a-element3{
+    color: #ffff;
+    margin: 15px;
+    display: flex;
+     font-family: "Open Sans";
+    font-weight: 400;
+}
+.contact{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffff;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.div-con{
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8FE
+}
+.hamburger
+{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.contact-div{
+    border-radius: 50%;
+  
+}
+@media only screen and (max-width: 1184px) {
+    .footer-con
+    {
+        flex-direction: column;
+    }
+    .links
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .get-access-con-div{
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 940px) {
+  
+  }
+  .navigation a{
+      display: none;
+  }
+  .logo
+  {
+      width: 50%;
+  }
+  @media only screen and (max-width: 870px) {
+      .first-div
+      {
+          flex-direction: column;
+          width: 100%;
+      }
+      .first-text-con
+      {
+          width: 100%;
+      }
+      .second-text-con
+      {
+          width: 100%   ;
+      }
+    
+      .second-div
+      {
+          flex-direction: column;
+      }
+     
+  }
+
+@media only screen and (max-width: 476px) {
+    .about-founder
+    {
+        flex-direction: column;
+    }
+}
